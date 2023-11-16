@@ -49,12 +49,6 @@ function ItemList(detections) {
         updateData();
     }, [detections])
 
-    const resetList = () => {
-        setData([]);
-        setSelectedQuantities({});
-        setApiData('');
-      };
-
     const handleRemoveItem = (itemId) => {
         const updatedData = data.filter(item => item.id !== itemId);
         setData(updatedData);
@@ -84,6 +78,12 @@ function ItemList(detections) {
             [itemId]: newQuantity,
         }));
     }
+
+    const resetList = () => {
+        setData([]);
+        setSelectedQuantities({});
+        setApiData('');
+    };
 
     return (
         <div>

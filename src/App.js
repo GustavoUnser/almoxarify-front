@@ -81,8 +81,8 @@ function App() {
               right: 0,
               textAlign: "center",
               zindex: 9,
-              width: 300,
-              height: 300,
+              width: 800,
+              height: 600,
             }}
           />
 
@@ -96,8 +96,8 @@ function App() {
               right: 0,
               textAlign: "center",
               zindex: 8,
-              width: 300,
-              height: 300,
+              width: 800,
+              height: 600,
             }}
           />
         </div>
