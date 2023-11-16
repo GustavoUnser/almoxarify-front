@@ -1,0 +1,80 @@
+h1 {
+  color: white;
+  text-align: center;
+}
+
+Table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: darkslategrey;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead tr td {
+  font-weight: bold;
+}
+
+Button {
+  background-color: #d9534f;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+select {
+  width: 80px;
+  appearance: none;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: black;
+}
+
+select:focus {
+  border-color: #5cb3fd;
+  box-shadow: 0 0 10px rgba(92, 179, 253, 0.5);
+}
+
+select option {
+  background-color: #fff;
+  color: #333;
+}
+
+tbody tr:hover {
+  background-color: darkslategrey;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #999;
+}
